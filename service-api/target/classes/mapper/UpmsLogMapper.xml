@@ -279,6 +279,4 @@
       permissions = #{permissions,jdbcType=VARCHAR}
     where log_id = #{logId,jdbcType=INTEGER}
   </update>
-  <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache" />-->
-  <cache type="org.mybatis.caches.ehcache.EhcacheCache" />
 </mapper>
